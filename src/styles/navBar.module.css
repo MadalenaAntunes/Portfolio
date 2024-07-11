@@ -1,0 +1,9 @@
+.navBarList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.liNB {
+  margin: 2%;
+}
