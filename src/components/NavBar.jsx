@@ -1,4 +1,5 @@
 import styles from "../styles/navBar.module.css";
+import CVButton from "./CVButton";
 
 const NavBar = () => {
   return (
@@ -10,7 +11,9 @@ const NavBar = () => {
         <li className={styles.liNB}>Projects</li>
         <li className={styles.liNB}>Testimonials</li>
         <li className={styles.liNB}>Contact</li>
-        <li className={styles.liNB}>{/* <CVButton /> */}</li>
+        <li className={styles.liNBtn}>
+          <CVButton />
+        </li>
       </ul>
     </nav>
   );

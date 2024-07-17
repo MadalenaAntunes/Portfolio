@@ -6,4 +6,10 @@
 
 .liNB {
   margin: 2%;
+  cursor: pointer;
+}
+
+.liNBtn {
+  margin: 1.7%;
+  cursor: pointer;
 }
