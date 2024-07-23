@@ -19,4 +19,6 @@ const NavBar = () => {
   );
 };
 
+// the navbar needs to be fixed and to be a burguer menu on 768 and 320
+
 export default NavBar;
