@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  font-size: 12px;
 }
 
 .liNB {
@@ -9,7 +10,64 @@
   cursor: pointer;
 }
 
+.liNB:hover {
+  font-weight: 600;
+}
+
+.liNB::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #fd6f00;
+  transform: scaleX(0);
+
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+.liNB:hover::after {
+  transform: scaleX(1);
+}
+
 .liNBtn {
   margin: 1.7%;
   cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navBarList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .liNB {
+    margin: 2%;
+    cursor: pointer;
+  }
+
+  .liNBtn {
+    margin: 1.7%;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 320px) {
+  .navBarList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .liNB {
+    margin: 2%;
+    cursor: pointer;
+  }
+
+  .liNBtn {
+    margin: 1.7%;
+    cursor: pointer;
+  }
 }
