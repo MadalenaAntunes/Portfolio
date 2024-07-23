@@ -5,7 +5,7 @@ import React from "react";
 const CVButton = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/[ENG] Madalena Antunes CV";
+    link.href = "/MadalenaAntunesCV.pdf";
     link.download = "MadalenaAntunes_CV.pdf";
     document.body.appendChild(link);
     link.click();
