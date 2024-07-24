@@ -1,5 +1,6 @@
 import styles from "../styles/fullStackDev.module.css";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FullStackDev = () => {
   return (
@@ -23,9 +24,8 @@ const FullStackDev = () => {
           <Image src="/ball.png" alt="temporary" width={320} height={320} />
         </div>
         <div className={styles.socials}>
-          <i>insta</i>
-          <i>linkedin</i>
-          <i>github</i>
+          <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          <FontAwesomeIcon icon="fa-brands fa-github" />
         </div>
       </div>
     </div>

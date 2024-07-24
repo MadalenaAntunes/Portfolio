@@ -6,7 +6,7 @@
 
 .text {
   width: 60%;
-  margin-left: 25px;
+  margin-left: 50px;
 }
 
 .h3 {
@@ -24,6 +24,7 @@
 
 .h2_b {
   color: #fd6f00;
+  font-weight: 700;
 }
 
 .h1_1 {
@@ -42,4 +43,8 @@
 
 .p {
   margin-right: 20%;
+}
+
+.image {
+  margin-left: 60px;
 }

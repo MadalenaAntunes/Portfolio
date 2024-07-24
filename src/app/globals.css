@@ -4,9 +4,13 @@
 
 @font-face {
   font-family: "Poppins-Regular";
-  src: url("/font/Poppins-Regular.ttf") format("truetype");
+  src: url("/font/Poppins-Regular.ttf");
   font-weight: normal;
   font-style: normal;
+}
+
+* {
+  font-family: "Poppins-Regular", sans-serif;
 }
 
 :root {
@@ -24,7 +28,6 @@
 }
 
 body {
-  font-family: "Poppins-Regular", sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
