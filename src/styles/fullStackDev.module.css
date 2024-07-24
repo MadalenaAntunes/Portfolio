@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+.text {
+  width: 60%;
+  margin-left: 25px;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #be12da;
+  margin-top: -10px;
+}
+
+.h2_b {
+  color: #fd6f00;
+}
+
+.h1_1 {
+  font-weight: 700;
+  font-size: 100px;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+.h1_2 {
+  font-weight: 700;
+  font-size: 100px;
+  margin-left: 200px;
+  margin-top: -60px;
+}
+
+.p {
+  margin-right: 20%;
+}
