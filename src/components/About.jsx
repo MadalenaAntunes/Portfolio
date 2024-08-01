@@ -1,7 +1,15 @@
 import styles from "../styles/about.module.css";
 import Image from "next/image";
+import ProgressList from "../components/ProgressList";
 
 const About = () => {
+  const data = [
+    { area: "Theatre", years: 9 },
+    { area: "Dance", years: 12 },
+    { area: "Jungian Psychology", years: 2 },
+    { area: "Digital Marketing", years: 2 },
+  ];
+
   return (
     <div className={styles.main}>
       <div className={styles.image}>
@@ -16,8 +24,8 @@ const About = () => {
           lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus
           pharetra
         </p>
+        <ProgressList data={data} />
       </div>
-      <div>{/* <Stats/> */}</div>
     </div>
   );
 };
