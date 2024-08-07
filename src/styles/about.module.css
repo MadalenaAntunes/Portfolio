@@ -17,3 +17,25 @@
   font-size: 65px;
   font-weight: 700;
 }
+
+.hidden {
+  display: none;
+}
+
+.yearsText {
+  font-size: 11px;
+}
+
+.barStyle {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.ballStyle {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -13px;
+}

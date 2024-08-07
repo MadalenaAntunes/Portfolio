@@ -7,7 +7,8 @@ const About = () => {
     { area: "Theatre", years: 9 },
     { area: "Dance", years: 12 },
     { area: "Jungian Psychology", years: 2 },
-    { area: "Digital Marketing", years: 2 },
+    { area: "Digital Marketing", years: 3 },
+    { area: "test", years: 15 },
   ];
 
   return (
