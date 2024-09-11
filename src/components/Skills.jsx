@@ -18,9 +18,13 @@ const Skills = () => {
   }, []);
 
   return (
-    <div style={styles.container}>
-      <h1>My Skills</h1>
-      <div style={styles.grid}>
+    <div className={styles.container}>
+      <h1 className={styles.h1}>Skills</h1>
+      <p className={styles.p}>
+        Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
+        lectus netus in. Aliquet donec morbi convallis pretium
+      </p>
+      <div className={styles.grid}>
         {skills.map((skill) => (
           <SkillSet
             key={skill._id}
