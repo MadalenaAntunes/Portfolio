@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import styles from "../styles/skills.module.css";
 
 const SkillSet = ({ title, description, details, icon }) => {
   const [showModal, setShowModal] = useState(false);
@@ -17,7 +18,13 @@ const SkillSet = ({ title, description, details, icon }) => {
     <>
       <div onClick={handleClick} style={styles.card}>
         <div>
-          <Image src={icon} alt={`${title} icon`} style={styles.icon} />
+          <Image
+            src={icon}
+            alt={`${title} icon`}
+            style={styles.icon}
+            width={10}
+            height={10}
+          />
         </div>
         <h3>{title}</h3>
         <p>{description}</p>
